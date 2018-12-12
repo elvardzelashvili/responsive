@@ -84,7 +84,6 @@
     align-items: center;
     width: 1170px;
     height: 100px;
-    background-color: lightgrey;
     margin: 0 auto;
   }
 
@@ -379,7 +378,6 @@
 .divmother {
  width: 1170px;
  margin: 0 auto;
- background-color: lightgreen;
 }
 
 .divchild {
