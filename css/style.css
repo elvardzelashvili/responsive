@@ -205,7 +205,7 @@
   {
     display: flex;
     justify-content: space-between;
-    width: 312px;
+    width: 380px;
     background-color: lightgrey;
   }
   .headerimgdiv {
@@ -353,7 +353,7 @@
  }
  .divcenter {
   margin:auto;
-  width: 312px;
+  width: 380px;
   height: 400px;
 }
 .hmtlp, .hmtlim, .pcenter, .hmtlimm
@@ -493,7 +493,7 @@ display: none;
 }
 
 .articlefirst {
-  width: 312px;
+  width: 380px;
   margin: auto;
   justify-content: center;
 }
@@ -828,13 +828,13 @@ display: none;
   color: red;
 }
 .responsivemother {
-  width: 312px; 
+  width: 380px; 
   margin: auto;
 
 }
 .responsive {
 
-  width: 312px;
+  width: 380px;
   height: 430px;
   background-color: #F2F2F2;
   margin-top: 30px;
@@ -842,7 +842,7 @@ display: none;
 
 } 
 .responsive2 {
-  height: 312px;
+  height: 380px;
   width: 420px;
   margin-top: 30px;
   position: relative;
@@ -850,7 +850,7 @@ display: none;
 
 }
 .imgrespp {
-  width: 312px;
+  width: 380px;
   margin-right: 50px;
   display: inline-block;
   padding-left: 25px;
@@ -863,7 +863,7 @@ display: none;
 }
 .imgrespp2
 {
-  width: 312px;
+  width: 380px;
   margin-right: 50px;
   display: inline-block;
   padding-left: 25px;
@@ -946,7 +946,7 @@ footer p
   footer div
 {
   margin: auto;
-  width: 420px;
+  width: 380px;
   display: block;
   text-align:center;
 
