@@ -245,12 +245,164 @@
 }
 /*end 480 px media*/
 
-.pcenter, .hmtlp, .hmtlimm, .hmtlim {
+.hmtlimm, .hmtlim {
   display: none;
 }
 /*header finish*/
 
 /*header ends */
+
+.bgc{
+    width: 100%;
+    height: 520px;
+    background-color: #E6E6E6;
+    position: relative;
+  }
+
+  .pcenter{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    bottom: 30px;
+    left: 30px;
+    position: absolute;
+    color: white;
+    display:block;
+
+  }
+
+  .bgimg {
+   width: 1170px;
+   background-image: url("../img/bg.jpg");
+   background-repeat: no-repeat;
+   height:460px;
+   position: relative;
+   top: 30px;
+ }
+ .divcenter {
+  margin:auto;
+  width:1170px;
+  height: 520px;
+}
+
+.hmtlp{
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  display: block;
+
+}
+
+/*picture 1024 html resp*/
+@media only screen and (max-width: 1024px)
+{ 
+  .bgc{
+    width: 100%;
+    height: 520px;
+    background-color: #E6E6E6;
+    position: relative;
+  }
+
+  .pcenter{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    bottom: 30px;
+    left: 30px;
+    position: absolute;
+    width: 335px;
+    color: white;
+    display:block;
+
+  }
+
+  .bgimg {
+   width: 965px;
+   background-image: url("../img/bg.jpg");
+   background-repeat: no-repeat;
+   height:460px;
+   position: relative;
+   top: 30px;
+ }
+ .divcenter {
+  margin:auto;
+  width: 965px;
+  height: 520px;
+}
+
+.hmtlp{
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  display: block;
+
+}
+.hmtlim{
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: 200px;
+  right: 30px;
+  display: block;
+
+}
+
+.hmtlimm{
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: 200px;
+  left: 30px;
+  display: block;
+
+}
+}
+
+@media only screen and (max-width: 480px)
+{ 
+  .bgc{
+    width: 100%;
+    height: 400px;
+    background-color: #E6E6E6;
+    position: relative;
+  }
+
+  .pcenter{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    bottom: 30px;
+    left: 30px;
+    display: block;
+    position: absolute;
+    width: 335px;
+    color: white;
+  }
+  .bgimg {
+   background-image: url("../img/bg.jpg");
+   background-repeat: no-repeat;
+   height: 300px;
+   position: relative;
+   top: 60px;
+   background-size: cover;
+   width: 420px;
+ }
+ .divcenter {
+  margin:auto;
+  width: 420px;
+  height: 400px;
+}
+.hmtlp, .hmtlim, .pcenter, .hmtlimm
+{
+  display: none;
+}
+
+}
+/*photo resp end*/
  .contentfff {
   font-size: 24px;
   font-family: "roboto";
@@ -280,6 +432,21 @@
 
   }
 
+  @media only screen and (max-width:480px)
+{
+  .sectionori {
+    display: none;
+  }
+
+}
+@media only screen and (max-width:1024px)
+{
+  .sectionori {
+    display: none;
+  }
+
+}
+
   .asidechild1 p{
     font-size: 14px;
     color: black;
@@ -294,6 +461,73 @@
    height: 400px;
 
  }
+
+  @media only screen and (max-width:1024px)
+{
+  .articlemotherori {
+   width: 965px;
+   display: flex;
+   margin: auto;
+   justify-content:flex-start;
+   
+ }
+ .asidechildsami {
+  width: 270px;
+  background-color: white;
+  height: 300px;
+
+} 
+.asidechildsami img {
+  width: 270px;
+  height: 212px;
+} 
+
+ .asidechildsami p{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+     padding-top: 30px;
+  font-size: 18px; 
+  }
+
+.asidechildsami:last-child
+{
+ display: none;
+}
+
+  }
+
+@media only screen and (max-width:480px)
+{
+  .articlemotherori {
+   width: 420px;
+   display: flex;
+   margin: auto;
+   height: 1390px;
+   
+ }
+ .asidechildsami {
+  width: 270px;
+  background-color: white;
+  height: 300px;
+
+} 
+.asidechildsami img {
+  width: 270px;
+  height: 212px;
+} 
+
+ .asidechildsami p{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+     padding-top: 30px;
+  font-size: 18px; 
+  }
+
+
+
+
+}
+
  .navi1 {
 
   width: 1170px;
@@ -401,7 +635,6 @@
   font-size: 24px;
   font-family: "roboto";
   display: inline-block;
-  width: 350px;
   padding-left: 5px;
   font-weight: normal;
 
@@ -569,7 +802,14 @@
 }
 .contentf2{
   color: red;
+   font-size: 24px;
+    font-family: "roboto";
+    display: inline-block;
+    height: 18px;
+    font-weight: normal;
 }
+   
+
 .responsivemother {
   width: 420px; 
   margin: auto;
