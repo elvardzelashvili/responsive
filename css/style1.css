@@ -462,15 +462,51 @@
 
  }
 
+.asidechildsami {
+  width: 270px;
+  background-color: white;
+  height: 300px;
+
+} 
+.asidechildsami img {
+  width: 270px;
+  height: 212px;
+} 
+
+ .asidechildsami p{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+     padding-top: 30px;
+  padding-left: 30px;
+  font-size: 18px; 
+  }
+
+.articlemotherorii {
+  width: 1170px;
+  display: flex;
+  margin: auto;
+  justify-content:space-between;
+  align-items: center;
+
+}
+
   @media only screen and (max-width:1024px)
 {
-  .articlemotherori {
+  .articlemotherorii {
    width: 965px;
    display: flex;
    margin: auto;
-   justify-content:flex-start;
+   justify-content:space-between;
    
  }
+ .navi1 {
+
+  width: 965px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-left: 12px;
+  }
  .asidechildsami {
   width: 270px;
   background-color: white;
