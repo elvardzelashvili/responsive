@@ -205,7 +205,7 @@
   {
     display: flex;
     justify-content: space-between;
-    width: 380px;
+    width: 420px;
     background-color: lightgrey;
   }
   .headerimgdiv {
@@ -339,7 +339,7 @@
     left: 30px;
     display: block;
     position: absolute;
-    width: 335px;
+    width: 420px;
     color: white;
   }
   .bgimg {
@@ -349,11 +349,11 @@
    position: relative;
    top: 60px;
    background-size: cover;
-   width: 312px;
+   width: 420px;
  }
  .divcenter {
   margin:auto;
-  width: 380px;
+  width: 420px;
   height: 400px;
 }
 .hmtlp, .hmtlim, .pcenter, .hmtlimm
